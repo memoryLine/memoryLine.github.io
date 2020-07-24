@@ -1,3 +1,4 @@
+remote_theme : mmistakes/minimal-mistakes
 repository: tomjoht/documentation-theme-jekyll
 
 output: web
@@ -96,6 +97,9 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
+
+url                      : "https://memoryLine.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 
 # these are defaults used for the frontmatter for these file types
 
