@@ -73,7 +73,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    backgroud-image: linear-gradient(90deg, #000, #7384f2);
 }
 
 .btn-primary:hover,
