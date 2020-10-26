@@ -1,10 +1,10 @@
 ---
-title: "¸Ş¸ğ¸®¶óÀÎÀ» »ç¿ëÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù. ½ÃÀÛÇØº¾½Ã´Ù."
+title: "ë©”ëª¨ë¦¬ë¼ì¸ì„ ì‚¬ìš©í•´ ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤. ì‹œì‘í•´ë´…ì‹œë‹¤."
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-¼Ò°³: ¸Ş¸ğ¸®¶óÀÎÀº °£´ÜÇÑ ½Ç½Ã°£ ÀÇ»ç¼ÒÅëÀ» À§ÇÑ Äµ¹ö½º ±â¹İ ±×¸®±â µµ±¸ ÀÔ´Ï´Ù. °£´ÜÇÑ »ç¿ë¹æ¹ıÀ» º¸½Ã°í À¯¿ëÇÏ°Ô »ç¿ëÇØÁÖ¼¼¿ä.
+ë©”ëª¨ë¦¬ë¼ì¸ì€?: ë©”ëª¨ë¦¬ë¼ì¸ì€ ì‹¤ì‹œê°„ìœ¼ë¡œ ê°„ë‹¨í•œ ì˜ì‚¬ì†Œí†µì´ ê°€ëŠ¥í•˜ë„ë¡ ë§Œë“¤ì–´ì¡ŒìŠµë‹ˆë‹¤. ê°„ë‹¨íˆ ì‚´í´ë³´ê³  ìœ ìš©í•˜ê²Œ ì‚¬ìš©í•´ì£¼ì„¸ìš”.
 ---
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
