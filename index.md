@@ -1,10 +1,10 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "메모리라인을 사용해 주셔서 감사합니다. 시작해봅시다."
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+소개: 메모리라인은 간단한 실시간 의사소통을 위한 캔버스 기반 그리기 도구 입니다. 간단한 사용방법을 보시고 유용하게 사용해주세요.
 ---
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
