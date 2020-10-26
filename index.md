@@ -1,10 +1,10 @@
 ---
-title: "메모리라인을 사용해 주셔서 감사합니다. 시작해봅시다."
+title: "메모리라인을 사용해 주셔서 감사합니다."
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-메모리라인은?: 메모리라인은 실시간으로 간단한 의사소통이 가능하도록 만들어졌습니다. 간단히 살펴보고 유용하게 사용해주세요.
+summary: 메모리라인은 실시간으로 간단한 의사소통이 가능하도록 캔버스 기반 몇가지 도구를 제공합니다. 간단히 살펴보고 유용하게 사용해주세요.
 ---
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
