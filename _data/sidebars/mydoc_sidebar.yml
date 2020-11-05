@@ -59,7 +59,11 @@ entries:
   - title: 기능
     output: web, pdf
     folderitems:
-
+    
+    - title: 프로젝트
+      url: /info_project.html
+      output: web, pdf
+      
     - title: About Ruby, Gems, Bundler, etc.
       url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf
