@@ -19,24 +19,24 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: 사용자 안내서
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: 소개
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
+    - title: 지원 플랜
       url: /mydoc_introduction.html
       output: web, pdf
 
-    - title: Supported features
+    - title: FAQ
       url: /mydoc_supported_features.html
       output: web, pdf
 
-    - title: About the theme author
+    - title: Contact us
       url: /mydoc_about.html
       output: web, pdf
 
@@ -44,11 +44,11 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: 릴리스 정보
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
+    - title: 1.0 Release notes
       url: /mydoc_release_notes_60.html
       output: web, pdf
 
@@ -56,7 +56,7 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-  - title: Installation
+  - title: 기능
     output: web, pdf
     folderitems:
 
@@ -72,7 +72,7 @@ entries:
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
 
-  - title: Authoring
+  - title: FAQ
     output: web, pdf
 
     folderitems:
@@ -108,7 +108,7 @@ entries:
       url: /mydoc_atom_text_editor.html
       output: web, pdf
 
-  - title: Navigation
+  - title: 블로그
     output: web, pdf
 
     folderitems:

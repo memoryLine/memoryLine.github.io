@@ -13,16 +13,31 @@ summary: 메모리라인은 실시간으로 간단한 의사소통이 가능하�
 
 Follow these instructions to build the theme.
 
-### 1. Download the theme
+### 1. 시스템 요구사항
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+PC, chrome 브라우저에서 최적화 되어있습니다. 
 
-### 2. Install Jekyll
+(모바일 추후 지원예정, explorer 에서 사용은 권장하지 않습니다.)
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+### 2. 둘러보기
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+링크들을 클릭하여 `메모리라인의 사용방법과 기능`을 살펴봅니다.
+회원가입 후 로그인 하시면 처음 보여지는 페이지가 프로젝트 페이지입니다. 
+여기서부터 시작해봅시다.
+
+* [프로젝트][mydoc_install_jekyll_on_mac]
+
+* [콘텐츠][mydoc_install_jekyll_on_windows]
+
+* [도구의 조작 및 사용방법][mydoc_install_jekyll_on_windows]
+
+* [공유를 시작하기][mydoc_install_jekyll_on_windows]
+
+* [그 외 기능 및 팁][mydoc_install_jekyll_on_windows]
+
+* [라이브러리][mydoc_install_jekyll_on_windows]
+
+* [캘린더][mydoc_install_jekyll_on_windows]
 
 ### 3. Install Bundler
 
