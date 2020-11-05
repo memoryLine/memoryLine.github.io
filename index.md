@@ -11,21 +11,22 @@ summary: 메모리라인은 실시간으로 간단한 의사소통이 가능하�
 
 ## 소개
 
-Follow these instructions to build the theme.
 
 ### 1. 시스템 요구사항
 
 PC, chrome 브라우저에서 최적화 되어있습니다. 
 
-(모바일 추후 지원예정, explorer 에서 사용은 권장하지 않습니다.)
+(모바일 추후 지원예정, `explorer 에서 사용은 권장하지 않습니다.`)
 
 ### 2. 둘러보기
 
 링크들을 클릭하여 `메모리라인의 사용방법과 기능`을 살펴봅니다.
+
 회원가입 후 로그인 하시면 처음 보여지는 페이지가 프로젝트 페이지입니다. 
+
 여기서부터 시작해봅시다.
 
-* [프로젝트][mydoc_install_jekyll_on_mac]
+* [프로젝트][info_project]
 
 * [콘텐츠][mydoc_install_jekyll_on_windows]
 

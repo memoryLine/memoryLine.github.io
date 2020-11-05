@@ -32,12 +32,12 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
+    - title: 문의하기
+      url: /mydoc_about.html
+      output: web, pdf
+      
     - title: FAQ
       url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: Contact us
-      url: /mydoc_about.html
       output: web, pdf
 
     - title: Support
