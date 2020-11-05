@@ -49,12 +49,12 @@ entries:
     folderitems:
 
     - title: 1.0 Release notes
-      url: /mydoc_release_notes_60.html
       output: web, pdf
+      folderitems:
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+      - title: 1.1.0
+        url: /mydoc_release_notes_60.html
+        output: web, pdf
 
   - title: 기능
     output: web, pdf
@@ -140,6 +140,11 @@ entries:
     output: web, pdf
 
     folderitems:
+    
+    - title: 분야
+      url: /mydoc_shuffle.html
+      output: web, pdf
+      
     - title: Sidebar navigation
       url: /mydoc_sidebar_navigation.html
       output: web, pdf

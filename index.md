@@ -38,9 +38,9 @@ PC, chrome 브라우저에서 최적화 되어있습니다.
 
 * [라이브러리][info_library]
 
-* [캘린더][calendar]
+* [캘린더][info_calendar]
 
-### 3. Install Bundler
+### 3. 이런 곳에 사용해보세요.
 
 In case you haven't installed Bundler, install it:
 
@@ -50,7 +50,9 @@ gem install bundler
 
 You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
 
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
+### 4. 지원하는 몇 가지 플랜들.
+### 5. 협업과 제안.
+
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
