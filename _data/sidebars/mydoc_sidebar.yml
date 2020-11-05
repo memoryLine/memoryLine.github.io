@@ -64,6 +64,30 @@ entries:
       url: /info_project.html
       output: web, pdf
       
+    - title: 콘텐츠
+      url: /info_contents.html
+      output: web, pdf
+      
+    - title: 도구의 조작 및 사용방법
+      url: /info_tools.html
+      output: web, pdf
+    
+    - title: 공유를 시작하기
+      url: /info_share.html
+      output: web, pdf
+      
+    - title: 그 외 기능 및 팁
+      url: /info_etc.html
+      output: web, pdf
+      
+    - title: 라이브러리
+      url: /info_library.html
+      output: web, pdf
+      
+    - title: 캘린더
+      url: /info_calendar.html
+      output: web, pdf  
+     
     - title: About Ruby, Gems, Bundler, etc.
       url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf

@@ -28,17 +28,17 @@ PC, chrome 브라우저에서 최적화 되어있습니다.
 
 * [프로젝트][info_project]
 
-* [콘텐츠][mydoc_install_jekyll_on_windows]
+* [콘텐츠][info_contents]
 
-* [도구의 조작 및 사용방법][mydoc_install_jekyll_on_windows]
+* [도구의 조작 및 사용방법][info_tools]
 
-* [공유를 시작하기][mydoc_install_jekyll_on_windows]
+* [공유를 시작하기][info_share]
 
-* [그 외 기능 및 팁][mydoc_install_jekyll_on_windows]
+* [그 외 기능 및 팁][info_etc]
 
-* [라이브러리][mydoc_install_jekyll_on_windows]
+* [라이브러리][info_library]
 
-* [캘린더][mydoc_install_jekyll_on_windows]
+* [캘린더][calendar]
 
 ### 3. Install Bundler
 
