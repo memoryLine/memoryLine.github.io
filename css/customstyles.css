@@ -259,7 +259,7 @@ div#toc ul li ul {
 }
 
 div#toc ul li ul li::before {
-    content: "–  ";
+    content: "��  ";
 }
 
 div#toc >ul::before {
@@ -910,6 +910,7 @@ span.soft {
     .col-md-9 img {
         max-width: 700px;
         max-height: 700px;
+        border-radius: 30px;
     }
 }
 
