@@ -259,7 +259,7 @@ div#toc ul li ul {
 }
 
 div#toc ul li ul li::before {
-    content: "��  ";
+    content: "–  ";
 }
 
 div#toc >ul::before {
