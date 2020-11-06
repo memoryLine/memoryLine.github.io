@@ -12,14 +12,14 @@ folder: info
 
 로그인 후 아무것도 없는 화면에서 아래 처럼 따라하세요.
 
-### 1. 프로젝트 생성 아이콘을 클릭하세요.
-{% include image.html file="guide/project1.png" alt="project" caption="프로젝트" %}
+1. 프로젝트 생성 아이콘을 클릭하세요.
+{% include image.html file="guide/project1.png" alt="project" %}
 
-### 2. 다음과 같은 프로젝트 정보를 입력받습니다.
-{% include image.html file="guide/project2.png" alt="project" caption="프로젝트" %}
+2. 다음과 같은 프로젝트 정보를 입력받습니다.
+{% include image.html file="guide/project2.png" alt="project" %}
 
-### 3. 프로젝트가 생성되었습니다.
-{% include image.html file="guide/project3.png" alt="project" caption="프로젝트" %}
+3. 프로젝트가 생성되었습니다.
+{% include image.html file="guide/project3.png" alt="project" %}
 
 If you get responses that look like this:
 
