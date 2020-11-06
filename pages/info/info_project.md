@@ -21,6 +21,15 @@ folder: info
 3.  프로젝트가 생성되었습니다.
 	{% include image.html file="guide/project3.png" alt="project" %}
 
+4.  프로젝트 카드에서 지원하는 기능들
+	{% include image.html file="guide/project4.png" alt="project" %}
+	
+	`프로젝트 삭제`는 상황에 따라 몇 가지 다르게 동작합니다.
+	
+	프로젝트가 [공유][info_share]되었을 때 : 내가 생성한 프로젝트 일 경우, 공유되었던 모든 카드와 프로젝트 내에서 작성했던 내 카드들은 모두 삭제됩니다. `(주의 바람)`
+									
+	프로젝트에 [초대][페이지 추가할것]되었을 때 : 내가 공유했던 카드들은 해당 프로젝트에서 삭제되며, 프로젝트에 비참여 상태로 바뀌며 프로젝트가 안 보이게 됩니다. 
+
 If you get responses that look like this:
 
 ```
