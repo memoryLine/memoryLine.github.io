@@ -1,16 +1,25 @@
 ---
-title: Install Jekyll on Mac
-tags: [getting_started, troubleshooting]
+title: 프로젝트
+tags: [project]
 keywords:
-summary: "Installation of Jekyll on Mac is usually less problematic than on Windows. However, you may run into permissions issues with Ruby that you must overcome. You should also use Bundler to be sure that you have all the required gems and other utilities on your computer to make the project run. "
+summary: "프로젝트 사용방법을 확인하세요."
 sidebar: mydoc_sidebar
 permalink: info_project.html
-folder: mydoc
+folder: info
 ---
 
-## Ruby and RubyGems
+## 프로젝트 만들기
 
-Ruby and [RubyGems](https://rubygems.org/pages/download) are usually installed by default on Macs. Open your Terminal and type `which ruby` and  `which gem` to confirm that you have Ruby and Rubygems. You should get a response indicating the location of Ruby and Rubygems.
+로그인 후 아무것도 없는 화면에서 아래 처럼 따라하세요.
+
+### 1. 프로젝트 생성 아이콘을 클릭하세요.
+{% include image.html file="guide/project1.png" alt="project" caption="프로젝트" %}
+
+### 2. 다음과 같은 프로젝트 정보를 입력받습니다.
+{% include image.html file="guide/project2.png" alt="project" caption="프로젝트" %}
+
+### 3. 프로젝트가 생성되었습니다.
+{% include image.html file="guide/project3.png" alt="project" caption="프로젝트" %}
 
 If you get responses that look like this:
 
