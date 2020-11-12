@@ -1,15 +1,21 @@
 ---
 title: Install Jekyll on Mac
-tags: [getting_started, troubleshooting]
+tags: [contents]
 keywords:
-summary: "Installation of Jekyll on Mac is usually less problematic than on Windows. However, you may run into permissions issues with Ruby that you must overcome. You should also use Bundler to be sure that you have all the required gems and other utilities on your computer to make the project run. "
+summary: "캔버스 기반의 콘텐츠의 몇 가지 기능을 살펴봅니다."
 sidebar: mydoc_sidebar
 permalink: info_contents.html
 folder: mydoc
 ---
 
-## Ruby and RubyGems
+## 콘텐츠 화면에서의 메뉴 및 기능
 
+{% include image.html file="guide/project1.png" alt="project" %}
+
+### 상단 메뉴 설명
+
+1.  [라이브러리][info_library]로 이동 합니다.
+2.  [프로젝트][info_project]에서 설정한 스텝들이 보여지며, 원하는 스텝으로 이동 할 수 있습니다.
 Ruby and [RubyGems](https://rubygems.org/pages/download) are usually installed by default on Macs. Open your Terminal and type `which ruby` and  `which gem` to confirm that you have Ruby and Rubygems. You should get a response indicating the location of Ruby and Rubygems.
 
 If you get responses that look like this:
