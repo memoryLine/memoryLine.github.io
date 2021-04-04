@@ -55,11 +55,11 @@ ANDROID_HOME 은 이제 deprecated 되어서 사용 안되며, ANDROID_SDK_ROOT 
 
 아래와 같이 PATH 편집을 해주고,
 
-{% include image.html file="front/images/quasar1_1.png" alt="path" %}
+{% include image.html file="front/quasar1_1.png" alt="path" %}
 
 gradle path 도 설정해주자
 
-{% include image.html file="front/images/quasar1_2.png" alt="path" %}
+{% include image.html file="front/quasar1_2.png" alt="path" %}
 
 그리고 나머진 홈페이지 설명대로 sdk 매니저에서 필요한 android OS 버전들을 선택한다.
 
@@ -96,7 +96,7 @@ $ cordova requirements
 
 짠~ 아래와 같은 화면이 나오면 정상이지만,
 
-{% include image.html file="front/images/quasar1_3.png" alt="path" %}
+{% include image.html file="front/quasar1_3.png" alt="path" %}
 
 한번에 되지 않았다. 
 
@@ -123,13 +123,13 @@ openjdk8을 찾아 설치한뒤 Java JDK 항목이 해결. 되.었.다.
 
 quasar 는 두가지 방법 모두 지원하는데.
 
-1. 폰에서 하고 싶을 경우
+# 폰에서 하고 싶을 경우
 
-USB 디버깅을 해제하고, 
+ - USB 디버깅을 해제하고, 
 
-adb 설치(연결이 안된다면?)
+ - adb 설치(연결이 안된다면?)
 
-아래 명령어로 실행 가능하다.
+  아래 명령어로 실행 가능하다.
 
 ```
 $ quasar dev -m cordova -T android
@@ -142,7 +142,7 @@ $ quasar dev -m cordova -T android
 ```
 $ quasar dev -m cordova -T android -e [emulate_name]
 ```
-2. 안드로이드 스튜디오에서 할 경우
+# 안드로이드 스튜디오에서 할 경우
 
 아래와 같이 실행하면 스튜디오가 자동으로 뜨고, 에뮬레이터에 작업 결과가 나타난다.
 
@@ -189,7 +189,7 @@ $cordova build --release android
 
 이 작업이 끝나면 아래 처럼 release 폴더 안에 app-release-unsigned.apk 가 생겨있다.
 
-{% include image.html file="front/images/quasar1_4.png" alt="path" %}
+{% include image.html file="front/quasar1_4.png" alt="path" %}
 
 4. 이제 심을 키를 생성하여 저장하자.
 
