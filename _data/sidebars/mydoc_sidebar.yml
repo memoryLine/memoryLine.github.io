@@ -10,6 +10,10 @@ entries:
     output: web, pdf
     folderitems:
     
+     - title: 태그
+       url: /mydoc_shuffle.html
+       output: web, pdf
+      
     - title: FrontEnd
       url: /frontEnd.html
       output: web, pdf
