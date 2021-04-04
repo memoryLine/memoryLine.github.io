@@ -2,11 +2,10 @@
 title: 긍정적인 마음으로.
 tags: [special_layouts]
 last_updated: November 30, 2015
-keywords: shuffle, card layout, dynamic grid, doc portal, support portal
-summary: "짬 좀 되는데 잘 몰라서 공부하는 개발자. 사이드 프로젝트를 완성해가는 단계에서 배워가는 것들을 담아본다."
-permalink: mydoc_shuffle.html
+keywords: sample homepage
+summary: "모르는게 많은 공부하는 개발자. 사이드 프로젝트를 완성해가는 단계에서 배워가는 것들을 담아본다."
+permalink: index.html
 sidebar: mydoc_sidebar
-folder: mydoc
 ---
 
 {% unless site.output == "pdf" %}

@@ -6,6 +6,29 @@ entries:
   version: 1.0
   folders:
 
+  - title: 블로그
+    output: web, pdf
+    folderitems:
+    
+    - title: FrontEnd
+      url: /frontEnd.html
+      output: web, pdf
+
+    - title: BackEnd
+      url: /backEnd.html
+      output: web, pdf
+
+    - title: DevOps
+      url: /devOps.html
+      output: web, pdf
+
+    - title: System
+      url: /system.html
+      output: web, pdf
+    
+    - title: Design
+      url: /design.html
+      output: web, pdf
   # - title:
   #   output: pdf
   #   type: frontmatter
@@ -144,34 +167,7 @@ entries:
   #     url: /mydoc_atom_text_editor.html
   #     output: web, pdf
 
-  - title: 블로그
-    output: web, pdf
-
-    folderitems:
-    
-    # - title: 태그
-    #   url: /mydoc_shuffle.html
-    #   output: web, pdf
-      
-    - title: FrontEnd
-      url: /frontEnd.html
-      output: web, pdf
-
-    - title: BackEnd
-      url: /backEnd.html
-      output: web, pdf
-
-    - title: DevOps
-      url: /devOps.html
-      output: web, pdf
-
-    - title: System
-      url: /system.html
-      output: web, pdf
-    
-    - title: Design
-      url: /design.html
-      output: web, pdf
+  
 
 #   - title: Formatting
 #     output: web, pdf
