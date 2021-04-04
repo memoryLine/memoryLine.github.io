@@ -3,6 +3,7 @@ title: "quasar + cordova emulater 연동 및 배포"
 keywords: vue, quasar, cordova, android, emulater, 연동, apk배포
 tags: [Frontend]
 sidebar: mydoc_sidebar
+permalink: front_quasar1.html
 summary: quasar 로 cordova 에서 개발환경과 배포 apk 추출에 대한 기록.
 ---
 
@@ -76,7 +77,7 @@ $ cordova requirements
 한번에 되지 않았다. 
 Java JDK 항목에 java를 찾을 수 없다고 나왔다.
 cordova spec확인을 하다보니. cordova 가 굴러가기 위한 jdk 버전을 8버전으로 고정한듯 하다는 글을 보았다.
-여튼 openjdk8을 찾아 설치한뒤 Java JDK 항목이 해결. 되.었.다.
+openjdk8을 찾아 설치한뒤 Java JDK 항목이 해결. 되.었.다.
 
 여기서 추가 삽질이
 현재 프로젝트 진행상 쓰고 있는 java는 julu였고, 일단은 openjdk 8로 변경 작업을 하였다.
