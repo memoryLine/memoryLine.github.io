@@ -100,49 +100,49 @@ entries:
     #   url: /mydoc_install_jekyll_on_windows.html
     #   output: web, pdf
   
-  - title: 상황별 사용예제 
-    output: web, pdf
+  # - title: 상황별 사용예제 
+  #   output: web, pdf
 
-    folderitems:
-    - title: 학원교육에서
-      url: /mydoc_pages.html
-      output: web, pdf
+  #   folderitems:
+  #   - title: 학원교육에서
+  #     url: /mydoc_pages.html
+  #     output: web, pdf
       
-  - title: FAQ
-    output: web, pdf
+  # - title: FAQ
+  #   output: web, pdf
 
-    folderitems:
-    - title: Pages
-      url: /mydoc_pages.html
-      output: web, pdf
+  #   folderitems:
+  #   - title: Pages
+  #     url: /mydoc_pages.html
+  #     output: web, pdf
 
-    - title: Posts
-      url: /mydoc_posts.html
-      output: web, pdf
+  #   - title: Posts
+  #     url: /mydoc_posts.html
+  #     output: web, pdf
 
-    - title: Lists
-      url: /mydoc_lists.html
-      output: web, pdf
+  #   - title: Lists
+  #     url: /mydoc_lists.html
+  #     output: web, pdf
 
-    - title: Conditional logic
-      url: /mydoc_conditional_logic.html
-      output: web, pdf
+  #   - title: Conditional logic
+  #     url: /mydoc_conditional_logic.html
+  #     output: web, pdf
 
-    - title: Content reuse
-      url: /mydoc_content_reuse.html
-      output: web, pdf
+  #   - title: Content reuse
+  #     url: /mydoc_content_reuse.html
+  #     output: web, pdf
 
-    - title: Collections
-      url: /mydoc_collections.html
-      output: web, pdf
+  #   - title: Collections
+  #     url: /mydoc_collections.html
+  #     output: web, pdf
 
-    - title: WebStorm editor tips
-      url: /mydoc_webstorm_text_editor.html
-      output: web, pdf
+  #   - title: WebStorm editor tips
+  #     url: /mydoc_webstorm_text_editor.html
+  #     output: web, pdf
 
-    - title: Atom editor tips
-      url: /mydoc_atom_text_editor.html
-      output: web, pdf
+  #   - title: Atom editor tips
+  #     url: /mydoc_atom_text_editor.html
+  #     output: web, pdf
 
   - title: 블로그
     output: web, pdf
