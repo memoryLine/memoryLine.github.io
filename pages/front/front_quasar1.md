@@ -123,11 +123,11 @@ openjdk8을 찾아 설치한뒤 Java JDK 항목이 해결. 되.었.다.
 
 quasar 는 두가지 방법 모두 지원하는데.
 
-# 폰에서 하고 싶을 경우
+1. 폰에서 하고 싶을 경우
 
- - USB 디버깅을 해제하고, 
+  * USB 디버깅을 해제하고, 
 
- - adb 설치(연결이 안된다면?)
+  * adb 설치(연결이 안된다면?)
 
   아래 명령어로 실행 가능하다.
 
@@ -142,11 +142,11 @@ $ quasar dev -m cordova -T android
 ```
 $ quasar dev -m cordova -T android -e [emulate_name]
 ```
-# 안드로이드 스튜디오에서 할 경우
+2. 안드로이드 스튜디오에서 할 경우
 
-아래와 같이 실행하면 스튜디오가 자동으로 뜨고, 에뮬레이터에 작업 결과가 나타난다.
+  아래와 같이 실행하면 스튜디오가 자동으로 뜨고, 에뮬레이터에 작업 결과가 나타난다.
 
-(오래걸려서 쓰기 싫더라.)
+  (오래걸려서 쓰기 싫더라.)
 
 ```
 $ quasar dev -m android --ide
@@ -170,56 +170,56 @@ apk 를 만들기 전에 알아야 할게 안드로이드에 apk 설치할 때 a
 그래서 다음 작업은 apk 에 릴리즈 단계를 부여하고, 우리가 만든 key 를 apk 심는 과정을 진행하겠다.
 
 1. 플러그인 제거
-```
-$ cordova plugin rm org.apache.cordova.console --save
-```
+  ```
+  $ cordova plugin rm org.apache.cordova.console --save
+  ```
 
 2. AndroidManifest.xml 항목 정리
-AndroidManifest.xml 파일에 android : debuggable 를 삭제한다. 
+  AndroidManifest.xml 파일에 android : debuggable 를 삭제한다. 
 
-debuggable = true 를 빌드도구에서 자동으로 삽입하지만,
+  debuggable = true 를 빌드도구에서 자동으로 삽입하지만,
 
-릴리즈 빌드시 자동으로 false로 바꿔주기 때문에 특정값을 지정하여 실수 할 수 있는 부분을 없앤다.
+  릴리즈 빌드시 자동으로 false로 바꿔주기 때문에 특정값을 지정하여 실수 할 수 있는 부분을 없앤다.
 
 3. cordova 에 릴리즈 빌드가 가능하도록 설정
 
-```
-$cordova build --release android
-```
+  ```
+  $cordova build --release android
+  ```
 
-이 작업이 끝나면 아래 처럼 release 폴더 안에 app-release-unsigned.apk 가 생겨있다.
+  이 작업이 끝나면 아래 처럼 release 폴더 안에 app-release-unsigned.apk 가 생겨있다.
 
-{% include image.html file="front/quasar1_4.png" alt="path" %}
+  {% include image.html file="front/quasar1_4.png" alt="path" %}
 
 4. 이제 심을 키를 생성하여 저장하자.
 
-```
-$keytool -genkey -v -keystore [원하는네임]-mobileapps.keystore -alias [원하는네임]mobileapps -keyalg RSA -keysize 2048 -validity 10000
-```
+  ```
+  $keytool -genkey -v -keystore [원하는네임]-mobileapps.keystore -alias [원하는네임]mobileapps -keyalg RSA -keysize 2048 -validity 10000
+  ```
 
-안된다면 apk 가 있는 폴더까지 이동하자.
+  안된다면 apk 가 있는 폴더까지 이동하자.
 
-몇 가지 질문을 하는데 비밀번호 외에는 대충 작성해도 된다.
+  몇 가지 질문을 하는데 비밀번호 외에는 대충 작성해도 된다.
 
-이동한 폴더에 [원하는네임]-mobileapps.keystore 란 이름으로 생성되었을것이다.
+  이동한 폴더에 [원하는네임]-mobileapps.keystore 란 이름으로 생성되었을것이다.
 
 5. jarsigner 를 이용하여 apk 에 sign 한다.
 
-```
-$jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore [원하는네임]-mobileapps.keystore app-release-unsigned.apk [원하는네임]mobileapps
-```
+  ```
+  $jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore [원하는네임]-mobileapps.keystore app-release-unsigned.apk [원하는네임]mobileapps
+  ```
 
-아마 이 작업이 한번에 되질 않을건데
+  아마 이 작업이 한번에 되질 않을건데
 
-명령어는 apk 가 있는 곳에서 하는것이 아닌, 아까 저장한 키스토어에서 해야한다.
+  명령어는 apk 가 있는 곳에서 하는것이 아닌, 아까 저장한 키스토어에서 해야한다.
 
-위의 구조 사진에서 output/ 밑에 apk 가 있다면, apk 를 키스토어 있는곳으로 이동시킨 후 명령어를 재실행 해보자.
+  위의 구조 사진에서 output/ 밑에 apk 가 있다면, apk 를 키스토어 있는곳으로 이동시킨 후 명령어를 재실행 해보자.
 
-성공하면, 위의 사진처럼 [원하는네임].apk 가 생성될것이다.
+  성공하면, 위의 사진처럼 [원하는네임].apk 가 생성될것이다.
 
-해당 apk를 복사하여, 실제 폰에 설치해보자. 몇 가지 설정할게 더 있어. play store 에서 경고 문구를 띄우지만
+  해당 apk를 복사하여, 실제 폰에 설치해보자. 몇 가지 설정할게 더 있어. play store 에서 경고 문구를 띄우지만
 
-설치는 잘 되고 웹으로 코딩했던 모든 내용이 잘 동작한다. 
+  설치는 잘 되고 웹으로 코딩했던 모든 내용이 잘 동작한다. 
 
 
 
