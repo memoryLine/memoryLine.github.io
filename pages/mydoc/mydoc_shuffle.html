@@ -1,19 +1,13 @@
 ---
-title: Shuffle layout
+title: 한땀 한땀 나의 아디이어가 잘 될 그날까지
 tags: [special_layouts]
 last_updated: November 30, 2015
 keywords: shuffle, card layout, dynamic grid, doc portal, support portal
-summary: "This layout shows an example of a knowledge-base style navigation system, where there is no hierarchy, just groups of pages that have certain tags."
+summary: "짬 좀 되는데 잘 몰라서 공부하는 개발자. 사이드 프로젝트를 완성해가는 단계에서 배워가는 것들을 담아본다."
 permalink: mydoc_shuffle.html
 sidebar: mydoc_sidebar
 folder: mydoc
 ---
-
-
-
-{% if site.output == "pdf" %}
-{{site.data.alerts.note}} The content on this page doesn't display well on PDF, but I included it anyway so you could see the problems this layout poses if you're including it in PDF.  {{site.data.alerts.end}}
-{% endif %}
 
 {% unless site.output == "pdf" %}
 <script src="js/jquery.shuffle.min.js"></script>
@@ -22,27 +16,27 @@ folder: mydoc
 
       <div class="filter-options">
       <button class="btn btn-primary" data-group="all">All</button>
-      <button class="btn btn-primary" data-group="getting_started">Getting Started</button>
-      <button class="btn btn-primary" data-group="formatting">Formatting</button>
-      <button class="btn btn-primary" data-group="publishing">Publishing</button>
-      <button class="btn btn-primary" data-group="content-types">Content types</button>
-          <button class="btn btn-primary" data-group="single_sourcing">Single Sourcing</button>
+      <button class="btn btn-primary" data-group="Frontend">Frontend</button>
+      <button class="btn btn-primary" data-group="Backend">Backend</button>
+      <button class="btn btn-primary" data-group="DevOps">DevOps</button>
+      <button class="btn btn-primary" data-group="System">System</button>
+      <button class="btn btn-primary" data-group="Design">Design</button>
       <button class="btn btn-primary" data-group="special_layouts">Special Layouts</button>
     </div>      
 
 <div id="grid" class="row">
 
 
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["getting_started"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Frontend"]'>
 
                <div class="panel panel-default">
-               <div class="panel-heading">Getting started</div>
+               <div class="panel-heading">Frontend</div>
                <div class="panel-body">
-                  If you're getting started with Jekyll, see the links in this section. It will take you from the beginning level to comfortable. 
+                  vue, quasar, javascript, cordova, webpack, nuxt
                   <ul>
                 {% for page in site.pages %}
                 {% for tag in page.tags %}
-                {% if tag == "getting_started" %}
+                {% if tag == "Frontend" %}
                   <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                 {% endif %}
                 {% endfor %}
@@ -54,16 +48,16 @@ folder: mydoc
     </div>
    
 
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["content-types"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Backend"]'>
 
         <div class="panel panel-default">
-            <div class="panel-heading">Content types</div>
+            <div class="panel-heading">Backend</div>
             <div class="panel-body">
-                This section lists different content types and how to work with them.
+                Springboot, express, Mysql, MariaDB, Oracle
                 <ul>
                     {% for page in site.pages %}
                     {% for tag in page.tags %}
-                    {% if tag == "content-types" %}
+                    {% if tag == "Backend" %}
                     <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                     {% endif %}
                     {% endfor %}
@@ -76,16 +70,16 @@ folder: mydoc
 
 
 
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["formatting"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["DevOps"]'>
 
                 <div class="panel panel-default">
-               <div class="panel-heading">Formatting</div>
+               <div class="panel-heading">DevOps</div>
                <div class="panel-body">
-                  These topics get into formatting syntax, such as images and tables, that you'll use on each of your pages: 
+                  Aws, NHN Cloud, Ngix, Tomcat
                   <ul>
                 {% for page in site.pages %}
                 {% for tag in page.tags %}
-                {% if tag == "formatting" %}
+                {% if tag == "DevOps" %}
                   <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                 {% endif %}
                 {% endfor %}
@@ -96,15 +90,16 @@ folder: mydoc
 
     </div>
 
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["single_sourcing"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["System"]'>
          
       <div class="panel panel-default">
-               <div class="panel-heading">Single Sourcing</div>
-               <div class="panel-body">These topics cover strategies for single_sourcing. Single sourcing refers to strategies for re-using the same source in different outputs for different audiences or purposes.
+               <div class="panel-heading">환경설정</div>
+               <div class="panel-body">
+                  유용한 환경들
                <ul>
                 {% for page in site.pages %}
                 {% for tag in page.tags %}
-                {% if tag == "single_sourcing" %}
+                {% if tag == "System" %}
                   <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                 {% endif %}
                 {% endfor %}
@@ -115,15 +110,16 @@ folder: mydoc
 
     </div>
 
-       <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["publishing"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Design"]'>
 
            <div class="panel panel-default">
-               <div class="panel-heading">Publishing</div>
-               <div class="panel-body">When you're building, publishing, and deploying your Jekyll site, you might find these topics helpful.
+               <div class="panel-heading">설계</div>
+               <div class="panel-body">
+                    데이터베이스 설계, 시스템 설계, 방법론, 아키텍처
                    <ul>
                 {% for page in site.pages %}
                 {% for tag in page.tags %}
-                {% if tag == "publishing" %}
+                {% if tag == "Design" %}
                   <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                 {% endif %}
                 {% endfor %}
@@ -134,25 +130,7 @@ folder: mydoc
 
     </div>
 
-        <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["special_layouts"]'>
-
-             <div class="panel panel-default">
-               <div class="panel-heading">Special Layouts</div>
-               <div class="panel-body">
-                  These pages highlight special layouts outside of the conventional page and TOC hierarchy.
-                  <ul>
-                {% for page in site.pages %}
-                {% for tag in page.tags %}
-                {% if tag == "special_layouts" %}
-                     <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
-                {% endif %}
-                {% endfor %}
-                {% endfor %} 
-                  </ul>
-               </div>
-            </div>
-
-    </div>
+        
           <!-- sizer -->
       <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>          
 

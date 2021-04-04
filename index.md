@@ -1,4 +1,151 @@
 ---
+title: 긍정적인 마음으로.
+tags: [special_layouts]
+last_updated: November 30, 2015
+keywords: shuffle, card layout, dynamic grid, doc portal, support portal
+summary: "짬 좀 되는데 잘 몰라서 공부하는 개발자. 사이드 프로젝트를 완성해가는 단계에서 배워가는 것들을 담아본다."
+permalink: mydoc_shuffle.html
+sidebar: mydoc_sidebar
+folder: mydoc
+---
+
+{% unless site.output == "pdf" %}
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+{% endunless %}
+
+      <div class="filter-options">
+      <button class="btn btn-primary" data-group="all">All</button>
+      <button class="btn btn-primary" data-group="Frontend">Frontend</button>
+      <button class="btn btn-primary" data-group="Backend">Backend</button>
+      <button class="btn btn-primary" data-group="DevOps">DevOps</button>
+      <button class="btn btn-primary" data-group="System">System</button>
+      <button class="btn btn-primary" data-group="Design">Design</button>
+      <button class="btn btn-primary" data-group="special_layouts">Special Layouts</button>
+    </div>      
+
+<div id="grid" class="row">
+
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Frontend"]'>
+
+               <div class="panel panel-default">
+               <div class="panel-heading">Frontend</div>
+               <div class="panel-body">
+                  vue, quasar, javascript, cordova, webpack, nuxt
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "Frontend" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+                  </ul>
+               </div>
+            </div>
+    
+    </div>
+   
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Backend"]'>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Backend</div>
+            <div class="panel-body">
+                Springboot, express, Mysql, MariaDB, Oracle
+                <ul>
+                    {% for page in site.pages %}
+                    {% for tag in page.tags %}
+                    {% if tag == "Backend" %}
+                    <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["DevOps"]'>
+
+                <div class="panel panel-default">
+               <div class="panel-heading">DevOps</div>
+               <div class="panel-body">
+                  Aws, NHN Cloud, Ngix, Tomcat
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "DevOps" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                  </ul>
+               </div>
+            </div>
+
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["System"]'>
+         
+      <div class="panel panel-default">
+               <div class="panel-heading">환경설정</div>
+               <div class="panel-body">
+                  유용한 환경들
+               <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "System" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+               </ul>
+            </div>
+         </div>
+
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["Design"]'>
+
+           <div class="panel panel-default">
+               <div class="panel-heading">설계</div>
+               <div class="panel-body">
+                    데이터베이스 설계, 시스템 설계, 방법론, 아키텍처
+                   <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "Design" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                   </ul>
+               </div>
+            </div>
+
+    </div>
+
+        
+          <!-- sizer -->
+      <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>          
+
+
+    </div><!-- /#grid -->
+
+{% unless site.output == "pdf" %}
+{% include initialize_shuffle.html %}
+{% endunless %}
+
+{{site.data.alerts.note}} This was mostly an experiment to see if I could break away from the hierarchical TOC and provide a different way of arranging the content. However, this layout is somewhat problematic because it doesn't allow you to browse other navigation options on the side while viewing a topic.{{site.data.alerts.end}}
+
+
+
+<!-- ---
 title: "메모리라인을 사용해 주셔서 감사합니다."
 keywords: sample homepage
 tags: [getting_started]
@@ -429,4 +576,4 @@ If you want to use an automated system for managing links, see [Automated Links]
 
 The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
 
-{% include links.html %}
+{% include links.html %} -->
