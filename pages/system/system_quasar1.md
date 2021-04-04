@@ -3,7 +3,7 @@ title: "quasar + cordova emulater 연동 및 배포"
 keywords: vue, quasar, cordova, android, emulater, 연동, apk배포
 tags: [System]
 sidebar: mydoc_sidebar
-permalink: front_quasar1.html
+permalink: system_quasar1.html
 summary: quasar 로 cordova 에서 개발환경과 배포 apk 추출에 대한 기록.
 ---
 
