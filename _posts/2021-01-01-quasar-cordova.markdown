@@ -52,7 +52,7 @@ ANDROID_HOME 은 이제 deprecated 되어서 사용 안되며, ANDROID_SDK_ROOT 
 
 아래와 같이 PATH 편집을 해주고,
 
-![quasar1_1](http://127.0.0.1:4000/master/static/img/_posts/quasar1_1.png)
+![quasar1_1](https://raw.githubusercontent.com/memoryline/memoryLine.github.io/master/static/img/_posts/quasar1_1.png)
 
 gradle path 도 설정해주자
 
