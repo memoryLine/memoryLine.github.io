@@ -187,9 +187,7 @@ consultant
 },
 ```
 
-2번 방식의 가장 큰 장점이라면, `구현 page 에서 더이상 layout 을 신경 쓸 필요없이 
-
-route 에서 이미 결정 한후 구현에만 집중 할 수 있다` 
+2번 방식의 가장 큰 장점이라면, `구현 page 에서 더이상 layout 을 신경 쓸 필요없이 route 에서 이미 결정 한후 구현에만 집중 할 수 있다` 
 
 더 이상 각 페이지에 layout 을 import 하지않고, 설계 단계에서 app.vue 와 route.js 
 
