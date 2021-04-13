@@ -2,7 +2,7 @@
 layout: post
 title:  "quasar + cordova emulater 연동 및 배포"
 date:   2021-01-01 00:18:23 +0700
-categories: [ruby, quasar]
+categories: [quasar]
 ---
 >cordova가 개념적으론 간단한데, 설정이 복잡하다.
 >window, mac, linux 에 따라 조금씩 차이가 있고, android 냐 mac 이냐 에 따라 설정이 다른 부분이 
